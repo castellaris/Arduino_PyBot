@@ -14,7 +14,7 @@ except ImportError:
 # Настройки берутся из Environment Variables на Render (токен в коде не хранится).
 token = os.environ.get("BOT_TOKEN", "")
 owner = os.environ.get("OWNER_ID", "")  # ID личного чата; пусто при первом запуске.
-port = os.environ.get("SERIAL_PORT", "COM3")
+port = os.environ.get("SERIAL_PORT", "COM4")
 http_port = int(os.environ.get("PORT", "10000"))  # Render передаёт PORT сам.
 board = None
 
